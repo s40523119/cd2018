@@ -1,0 +1,19 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 將Node.js與npm納入隨身系統 · 協同產品設計實習-CD9-國立虎尾科技大學-機械設計工程系</title><meta name="description" content="將Node.js與npm納入隨身系統 - 林建安"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/cd2018/favicon.png"><link rel="stylesheet" href="/cd2018/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://s40523119.github.io/cd2018/atom.xml" title="協同產品設計實習-CD9-國立虎尾科技大學-機械設計工程系"></head><body><div class="wrap"><header><a href="/cd2018/" class="logo-link"><img src="/cd2018/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/cd2018/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/cd2018/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/s40523119/cd2018" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">將Node.js與npm納入隨身系統</h1><div class="post-info">Mar 10, 2018</div><div class="post-content"><p>為讓工作效率提升，想要將 <code>Node.js</code> 納入課程隨身系統當中，新版的node內都有內建套件安裝系統 <code>npm</code>，無須另外下載，系統裝置好後再進行安裝 <code>hexo</code> 網誌框架系統。</p>
+<a id="more"></a>
+<ul>
+<li><p>Step 1 下載 Node.js binary</p>
+<p>  前往 <a href="https://nodejs.org/download/release/v9.8.0/" target="_blank" rel="noopener">Node binary</a> 下載最新的Node。</p>
+</li>
+<li><p>Step 2 解壓縮至隨身系統內，並將資料夾更名為 <code>nodejs</code> 。</p>
+</li>
+<li><p>Step 3 並在 <code>start.bat</code>內新增路徑置系統內:</p>
+  <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">set</span> path5=<span class="variable">%Disk%</span>:\nodejs;<span class="variable">%Disk%</span>:\nodejs\node_modules\npm\bin;</span><br></pre></td></tr></table></figure>
+<p>  並在 <code>path</code> 填上 <code>path5</code>:</p>
+  <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">path</span>=<span class="variable">%path1%</span>;<span class="variable">%path2%</span>;<span class="variable">%path3%</span>;<span class="variable">%path4%</span>;<span class="variable">%path5%</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Step 4 啟動隨身系統，並安裝 <code>hexo</code> 網誌框架系統。</p>
+  <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>以上完成Node.js Portable以及安裝 <code>hexo</code> 網誌框架系統。</p>
+</div></article></div></main><footer><div class="paginator"><a href="/cd2018/2018/03/07/w2/" class="next">NEXT</a></div><div class="copyright"><p>© 2018 <a href="https://s40523119.github.io/cd2018">林建安</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
