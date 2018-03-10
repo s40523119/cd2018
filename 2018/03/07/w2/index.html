@@ -46,7 +46,7 @@
         def echo(ev):
             fake_qs = '?foo=%s' %time.time()
 
-            with open('./../../../../2a.txt'+fake_qs) as fh:
+            with open('./../../../../data/2a.txt'+fake_qs) as fh:
                 data = fh.readlines() #逐行讀入
                 data = [(re.findall('405\d\d\d\d\d', data[int(i)])) for i in range(len(data))]
             num = 0
