@@ -14,7 +14,7 @@
 <p>  為了要在網頁中運行 <code>Pyhton</code> 腳本，必須引用函數 <code>brython()</code> 。<br>  所以我們在這裡建立一個html body，並賦予它 <code>onload=brython()</code>，再建立一個div區塊，則裡面內容則放入想要運行的Python腳本。</p>
 </li>
 </ul>
-<div class="tip"><br>因為使用 <code>hexo</code> 來進行渲染md檔，所以我們的Python程式碼會被渲染，跳行的部分會被填入 <code>&lt;br&gt;</code> 所以我們得在程式碼頭尾部分加入，HEXO的標籤  <code>% raw % % endraw %</code> ，到時HEXO就會讓標籤內的文字以原始形式呈現。<br></div>    
+<div class="tip"><br>因為使用 <code>hexo</code> 來進行渲染md檔，所以我們的Python程式碼會被渲染，跳行的部分會被填入 <code>&lt;br&gt;</code> 所以我們得在程式碼頭尾部分加入，HEXO的標籤  % raw % % endraw % ，到時HEXO就會讓標籤內的文字以原始形式呈現。<br></div>    
 
 
 <pre><code><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">"brython()"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/python"</span>&gt;</span><span class="undefined">&#123;% raw %&#125;</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">        ### Python code ###</span></span><br><span class="line"><span class="undefined"></span></span><br><span class="line"><span class="undefined">        &#123;% endraw %&#125;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -26,7 +26,7 @@
   <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fake_qs = <span class="string">'?foo=%s'</span> %time.time()</span><br></pre></td></tr></table></figure>
 <p>  所以開啟文件時，在檔案名後方加入 <code>fake_qs</code> ，就可以讀去到文件，範例如下:</p>
   <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> open(<span class="string">'./../../../../data/2a.txt'</span>+fake_qs) <span class="keyword">as</span> fh:</span><br></pre></td></tr></table></figure>
-<p>  最後，在為我的程式配上一顆按鈕，並為它綁定ID到mybutton，按下去瀏覽器就會執行我的代碼:</p>
+<p>  最後，再為我的程式配上一顆按鈕，並為它綁定ID到mybutton，按下去瀏覽器就會執行我的代碼:</p>
   <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">id</span>=<span class="string">"mybutton"</span> <span class="attr">class</span>=<span class="string">"next"</span>&gt;</span>執行<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>

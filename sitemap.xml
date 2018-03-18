@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://s40523119.github.io/cd2018/2018/03/07/w2/</loc>
+    <loc>https://s40523119.github.io/cd2018/2018/03/13/pelican-vs-hexo/</loc>
     
-    <lastmod>2018-03-13T03:37:04.000Z</lastmod>
+    <lastmod>2018-03-18T16:10:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://s40523119.github.io/cd2018/2018/03/18/hexo-vs-pelican/</loc>
+    
+    <lastmod>2018-03-18T16:10:06.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://s40523119.github.io/cd2018/2018/03/10/nodejs/</loc>
     
-    <lastmod>2018-03-13T02:19:14.000Z</lastmod>
+    <lastmod>2018-03-18T15:33:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://s40523119.github.io/cd2018/2018/03/07/w2/</loc>
+    
+    <lastmod>2018-03-18T13:24:08.000Z</lastmod>
     
   </url>
   
