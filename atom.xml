@@ -6,7 +6,7 @@
   <link href="/cd2018/atom.xml" rel="self"/>
   
   <link href="https://s40523119.github.io/cd2018/"/>
-  <updated>2018-03-20T08:13:06.000Z</updated>
+  <updated>2018-03-20T08:29:46.000Z</updated>
   <id>https://s40523119.github.io/cd2018/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://s40523119.github.io/cd2018/2018/03/20/run-lua-in-web/"/>
     <id>https://s40523119.github.io/cd2018/2018/03/20/run-lua-in-web/</id>
     <published>2018-03-20T02:33:41.000Z</published>
-    <updated>2018-03-20T08:13:06.000Z</updated>
+    <updated>2018-03-20T08:29:46.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hello-Lua"><a href="#Hello-Lua" class="headerlink" title="Hello Lua!"></a>Hello Lua!</h1><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="./../../../../data/style.css"><div class="repl-container">  <div class="row editor-container">    <div class="col-sm editor">-- Variable definition:local a, b-- Initializationa = 10b = 30print("value of a:", a)print("value of b:", b)-- Swapping of variablesb, a = a, bprint("value of a:", a)print("value of b:", b)f = 70.0/3.0print("value of f", f)</div>  </div>    <div class="row">      <button type="button" class="btn btn-primary btn-execute" style="margin:15px">執行</button>    </div>  <div class="col-sm output"></div></div><script src="./../../../../data/ace/ace.js" type="text/javascript" charset="utf-8"></script><script src="./../../../../data/ace/mode-lua.js"></script><script src="./../../../../data/fengari-web.js"></script><script src="./../../../../data/editor.lua" type="application/lua" async></script><script src="./../../../../data/editor.js"></script>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hello-Lua"><a href="#Hello-Lua" class="headerlink" title="Hello Lua!"></a>Hello Lua!</h1><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="./../../../../data/style.css"><div class="repl-container">  <div class="editor-container">    <div class="editor">-- Variable definition:local a, b-- Initializationa = 10b = 30print("value of a:", a)print("value of b:", b)-- Swapping of variablesb, a = a, bprint("value of a:", a)print("value of b:", b)f = 70.0/3.0print("value of f", f)</div>  </div>    <div>      <button type="button" class="btn btn-primary btn-execute" style="margin:15px">執行</button>    </div>  <div class="output"></div>  <br></div><script src="./../../../../data/ace/ace.js" type="text/javascript" charset="utf-8"></script><script src="./../../../../data/ace/mode-lua.js"></script><script src="./../../../../data/fengari-web.js"></script><script src="./../../../../data/editor.lua" type="application/lua" async></script><script src="./../../../../data/editor.js"></script>]]></content>
     
     <summary type="html">
     

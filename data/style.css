@@ -1,3 +1,5 @@
+
+
 .center {
     text-align: left;
 }
@@ -8,16 +10,19 @@
 }
 
 .editor-container {
+
     width: 35vw;
     height: 40vh;
 }
 
 .editor {
+    border-radius: 15px;
     flex: 1;
     height: 100%;
 }
 
 .output {
+    border-radius: 15px;
     height: 40%;
     position:relative;
     background-color: lightgray;
