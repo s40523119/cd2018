@@ -1,0 +1,41 @@
+.center {
+    text-align: left;
+}
+
+.repl-container {
+    width: 35vw;
+    height: 55vh;
+}
+
+.editor-container {
+    width: 35vw;
+    height: 40vh;
+}
+
+.editor {
+    flex: 1;
+    height: 100%;
+}
+
+.output {
+    height: 40%;
+    position:relative;
+    background-color: lightgray;
+    overflow: auto;
+
+}
+
+#luaLogo {
+    width: 35px;
+    height: 35px;
+}
+
+.footer {
+    background-color: lightgray;
+    height: 3vh;
+}
+
+.center-iframe {
+    width: 80%;
+    height: 40vh;
+}
