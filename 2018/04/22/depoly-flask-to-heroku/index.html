@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 部屬Flask到Heroku · 協同產品設計實習-G9-國立虎尾科技大學-機械設計工程系</title><meta name="description" content="部屬Flask到Heroku - 林建安"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/cd2018/favicon.png"><link rel="stylesheet" href="/cd2018/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://s40523119.github.io/cd2018/atom.xml" title="協同產品設計實習-G9-國立虎尾科技大學-機械設計工程系"></head><body><div class="wrap"><header><a href="/cd2018/" class="logo-link"><img src="/cd2018/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/cd2018/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/cd2018/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/s40523119/cd2018" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">部屬Flask到Heroku</h1><div class="post-info">Apr 22, 2018</div><div class="post-content"><p>參照上一篇文章所製作好的網站，將它部屬到Heroku雲端伺服服務。<br><a id="more"></a></p>
+<h3 id="STEP-1"><a href="#STEP-1" class="headerlink" title="STEP 1"></a>STEP 1</h3><ul>
+<li>設定Heroku環境</li>
+</ul>
+<p>為你的電腦安裝<a href="https://devcenter.heroku.com/articles/heroku-cli" target="_blank" rel="noopener">Heroku Cli</a></p>
+<h3 id="STEP-2"><a href="#STEP-2" class="headerlink" title="STEP 2"></a>STEP 2</h3><ul>
+<li>建立一個heroku 應用</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">heroku login</span><br></pre></td></tr></table></figure>
+<p>登入heroku</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">heroku create your_app</span><br></pre></td></tr></table></figure>
+<p>建立你的應用程式</p>
+<h3 id="STEP-3"><a href="#STEP-3" class="headerlink" title="STEP 3"></a>STEP 3</h3><ul>
+<li>設定部屬參數檔案</li>
+</ul>
+<p>新增三個檔案至根目錄:</p>
+<p><code>Procfile</code>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">web: gunicorn flaskr:app</span><br></pre></td></tr></table></figure>
+<p><code>requirements.txt</code>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">flask</span><br><span class="line">gunicorn</span><br><span class="line">Flask-Heroku</span><br><span class="line">Jinja2</span><br></pre></td></tr></table></figure>
+<p><code>runtime.txt</code>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python-3.6.4</span><br></pre></td></tr></table></figure>
+<h3 id="STEP-4"><a href="#STEP-4" class="headerlink" title="STEP 4"></a>STEP 4</h3><ul>
+<li>將應用綁定至一個Git倉儲</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">heroku git:remote -a your_app</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -am &quot;make it better&quot;</span><br><span class="line">git push heroku master</span><br></pre></td></tr></table></figure>
+<p>部屬結束!</p>
+<p>前往: <a href="https://your_app.herokuapp.com/" target="_blank" rel="noopener">https://your_app.herokuapp.com/</a> 看看是不是成功了呢!!</p>
+</div></article></div></main><footer><div class="paginator"><a href="/cd2018/2018/04/22/create-flask/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'https-s40523119-github-io-cd2018';
+var disqus_identifier = '2018/04/22/depoly-flask-to-heroku/';
+var disqus_title = '部屬Flask到Heroku';
+var disqus_url = 'https://s40523119.github.io/cd2018/2018/04/22/depoly-flask-to-heroku/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//https-s40523119-github-io-cd2018.disqus.com/count.js" async></script><div class="copyright"><p>© 2018 <a href="https://s40523119.github.io/cd2018">林建安</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
