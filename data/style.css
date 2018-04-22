@@ -16,14 +16,14 @@
 }
 
 .editor {
-    border-radius: 15px;
+    border-radius: 10px;
     flex: 1;
     height: 100%;
 }
 
 .output {
-    border-radius: 15px;
-    height: 40%;
+    border-radius: 10px;
+    height: 50%;
     position:relative;
     background-color: lightgray;
     overflow: auto;
