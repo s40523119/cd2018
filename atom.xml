@@ -6,7 +6,7 @@
   <link href="/cd2018/atom.xml" rel="self"/>
   
   <link href="https://s40523119.github.io/cd2018/"/>
-  <updated>2018-04-22T16:45:38.000Z</updated>
+  <updated>2018-06-11T12:37:38.000Z</updated>
   <id>https://s40523119.github.io/cd2018/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>齒輪參考資料</title>
+    <link href="https://s40523119.github.io/cd2018/2018/06/11/Gear-References/"/>
+    <id>https://s40523119.github.io/cd2018/2018/06/11/Gear-References/</id>
+    <published>2018-06-11T12:31:02.000Z</published>
+    <updated>2018-06-11T12:37:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="齒輪產生參考資料"><a href="#齒輪產生參考資料" class="headerlink" title="齒輪產生參考資料:"></a>齒輪產生參考資料:</h2><ul><li><a href="http://www.otvinta.com/gear.html" target="_blank" rel="noopener">Involute Gear Calculator</a></li><li><a href="https://github.com/richard-clark/Gear-Generator" target="_blank" rel="noopener">Gear-Generator</a></li><li><a href="https://github.com/heartworm/py_gear_gen" target="_blank" rel="noopener">py_gear_gen</a></li><li><a href="https://github.com/e-dub/pygear" target="_blank" rel="noopener">pygear</a></li><li><a href="http://help.autodesk.com/view/INVNTOR/2016/CHT/?guid=GUID-AC237C37-5150-4A61-9A11-C6E3DF4DE38D" target="_blank" rel="noopener">正齒輪的基本幾何計算</a></li><li><a href="http://www.khkgears.co.jp/orderGearDraw/order/order.do?lang=zh_TW" target="_blank" rel="noopener">正齒輪繪圖器</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;齒輪產生參考資料&quot;&gt;&lt;a href=&quot;#齒輪產生參考資料&quot; class=&quot;headerlink&quot; title=&quot;齒輪產生參考資料:&quot;&gt;&lt;/a&gt;齒輪產生參考資料:&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.otvinta.com/gear.h
+      
+    
+    </summary>
+    
+    
+      <category term="齒輪" scheme="https://s40523119.github.io/cd2018/tags/%E9%BD%92%E8%BC%AA/"/>
+    
+      <category term="gear" scheme="https://s40523119.github.io/cd2018/tags/gear/"/>
+    
+      <category term="python" scheme="https://s40523119.github.io/cd2018/tags/python/"/>
+    
+      <category term="gear-generator" scheme="https://s40523119.github.io/cd2018/tags/gear-generator/"/>
+    
+  </entry>
   
   <entry>
     <title>部屬Flask到Heroku</title>
@@ -112,9 +142,9 @@
     </summary>
     
     
-      <category term="Pelican" scheme="https://s40523119.github.io/cd2018/tags/Pelican/"/>
-    
       <category term="Python" scheme="https://s40523119.github.io/cd2018/tags/Python/"/>
+    
+      <category term="Pelican" scheme="https://s40523119.github.io/cd2018/tags/Pelican/"/>
     
       <category term="Hexo" scheme="https://s40523119.github.io/cd2018/tags/Hexo/"/>
     
@@ -140,9 +170,9 @@
     </summary>
     
     
-      <category term="Pelican" scheme="https://s40523119.github.io/cd2018/tags/Pelican/"/>
-    
       <category term="Python" scheme="https://s40523119.github.io/cd2018/tags/Python/"/>
+    
+      <category term="Pelican" scheme="https://s40523119.github.io/cd2018/tags/Pelican/"/>
     
       <category term="Hexo" scheme="https://s40523119.github.io/cd2018/tags/Hexo/"/>
     
