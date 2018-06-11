@@ -6,7 +6,7 @@
   <link href="/cd2018/atom.xml" rel="self"/>
   
   <link href="https://s40523119.github.io/cd2018/"/>
-  <updated>2018-06-11T13:10:26.000Z</updated>
+  <updated>2018-06-11T17:22:18.000Z</updated>
   <id>https://s40523119.github.io/cd2018/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dummy Functions</title>
+    <link href="https://s40523119.github.io/cd2018/2018/06/12/Dummy-functions/"/>
+    <id>https://s40523119.github.io/cd2018/2018/06/12/Dummy-functions/</id>
+    <published>2018-06-11T17:19:45.000Z</published>
+    <updated>2018-06-11T17:22:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>以下是Dummy常見功能:</p><p>作為一個參考點</p><p>模擬模型的質點</p><ul><li><p>作為標記點供觀察運動狀態</p></li><li><p>用於逆向運動學中末端指定的位置或方向<a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsModule.htm" target="_blank" rel="noopener">Inverse kinematics</a></p></li><li><p>作為機件之間幾何約束求解的元素</p></li><li><p>用於創建閉迴路動態模擬</p></li><li><p>作為物件追隨的路徑</p></li></ul><p>本次課程當中所使用的六連桿機構，在V-REP中模擬運動情形時，就得需要使用Dummy。類型屬於幾何約束求解。</p><p>使用說明請參考 40523121 學員所錄製的教學與介紹  <a href="https://youtu.be/OUtwzCVJBlQ" target="_blank" rel="noopener">影片連結​</a></p><p>​</p><p>關於幾何求解器的應用與說明請參至 <a href="http://www.coppeliarobotics.com/helpFiles/en/geometricConstraintSolverOperation.htm" target="_blank" rel="noopener">Geometric Constraint Solver</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;以下是Dummy常見功能:&lt;/p&gt;
+&lt;p&gt;作為一個參考點&lt;/p&gt;
+&lt;p&gt;模擬模型的質點&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;作為標記點供觀察運動狀態&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用於逆向運動學中末端指定的位置或方向&lt;a href=&quot;http://www.coppeliar
+      
+    
+    </summary>
+    
+    
+      <category term="V-REP" scheme="https://s40523119.github.io/cd2018/tags/V-REP/"/>
+    
+      <category term="Dummy" scheme="https://s40523119.github.io/cd2018/tags/Dummy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>What&#39;s Dummy</title>
+    <link href="https://s40523119.github.io/cd2018/2018/06/12/Dummy/"/>
+    <id>https://s40523119.github.io/cd2018/2018/06/12/Dummy/</id>
+    <published>2018-06-11T17:16:17.000Z</published>
+    <updated>2018-06-11T17:19:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="What’s-Dummy"><a href="#What’s-Dummy" class="headerlink" title="What’s Dummy?"></a>What’s Dummy?</h2><p>Dummy 是簡單的物件，它可被定位也可以被當作成一個元件。</p><p>如果當我們單獨使用它，它一點作用都沒有。然而，我們將它與其他元件或是計算模組結合使用時，它將會是模擬成功的重要關鍵。</p><p><img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LAgU-7dFCj3b3oIJIST%2F-LEK8886ly07lm6TzNFk%2F-LEK9n6IerIH0ohJCehh%2Fdummies2.jpg?alt=media&amp;token=692f6319-a72d-458f-970a-05697463c5a6" alt="Dummy"></p><p>Dummy 是可以設定具有 <strong>物理碰撞</strong>、可 <strong>量測</strong>、可 <strong>感測</strong> 的。這意味著它:</p><ul><li><p>可以與其他物件進行碰撞模擬。</p></li><li><p>可以與其他元件進行最小距離測量。</p></li><li><p>可以被軟體中的感測器感知到。</p><p>可以透過 [Menu bar –&gt; Add –&gt; Dummy]將Dummy添加到場景中。</p></li></ul><p>下一篇說明Dummy使用時機。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;What’s-Dummy&quot;&gt;&lt;a href=&quot;#What’s-Dummy&quot; class=&quot;headerlink&quot; title=&quot;What’s Dummy?&quot;&gt;&lt;/a&gt;What’s Dummy?&lt;/h2&gt;&lt;p&gt;Dummy 是簡單的物件，它可被定位也可以被當作成一個元
+      
+    
+    </summary>
+    
+    
+      <category term="V-REP" scheme="https://s40523119.github.io/cd2018/tags/V-REP/"/>
+    
+      <category term="Dummy" scheme="https://s40523119.github.io/cd2018/tags/Dummy/"/>
+    
+  </entry>
   
   <entry>
     <title>齒輪計算機</title>
