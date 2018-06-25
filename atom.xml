@@ -6,7 +6,7 @@
   <link href="/cd2018/atom.xml" rel="self"/>
   
   <link href="https://s40523119.github.io/cd2018/"/>
-  <updated>2018-06-11T17:22:18.000Z</updated>
+  <updated>2018-06-25T16:05:16.000Z</updated>
   <id>https://s40523119.github.io/cd2018/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://s40523119.github.io/cd2018/2018/06/26/Three-Stage-Six-bar-Linkage/"/>
+    <id>https://s40523119.github.io/cd2018/2018/06/26/Three-Stage-Six-bar-Linkage/</id>
+    <published>2018-06-25T16:05:38.230Z</published>
+    <updated>2018-06-25T16:05:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="三段式六連桿鋼球循環機構"><a href="#三段式六連桿鋼球循環機構" class="headerlink" title="三段式六連桿鋼球循環機構"></a>三段式六連桿鋼球循環機構</h1><blockquote><p>此抬球機構參考至ag6，由 40523121 學員來進行修改，至此感謝同學提供。</p></blockquote><h1 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h1><p><img src="https://i.imgur.com/bJeL2aP.jpg" alt=""></p><h2 id="檔案列表"><a href="#檔案列表" class="headerlink" title="檔案列表:"></a>檔案列表:</h2><p><a href="https://github.com/s40523119/gitbook/tree/master/ag9/STL" target="_blank" rel="noopener">STL</a></p><p><a href="https://github.com/s40523119/gitbook/blob/master/ag9/V-REP/Finished%20product.ttt" target="_blank" rel="noopener">V-REP</a></p><p><a href="https://youtu.be/bALnrVzoFAw" target="_blank" rel="noopener">模擬運作影片</a></p><h1 id="說明"><a href="#說明" class="headerlink" title="說明"></a>說明</h1><p>利用Pyslvs製作出的三段式六連桿機構，再由學員們自行更動尺寸，發揮創意，設計出可將球透過三段接球的方式運送到高處。</p><p><img src="https://i.imgur.com/bvw1EB1.png" alt=""></p><h1 id="軌道設計"><a href="#軌道設計" class="headerlink" title="軌道設計"></a>軌道設計</h1><p>根據抬球機構低點與高點，設計簡易軌道，以重力(高低差)為動力，將球滾動到接球處(低點)。</p><p><img src="https://i.imgur.com/LXd56Me.png" alt=""></p><h1 id="抬球機構"><a href="#抬球機構" class="headerlink" title="抬球機構"></a>抬球機構</h1><p>抬球機構參考本組別上學期摩天抬球機構，以簡單的圓盤，上面繪製凹槽，讓球滾動進去，再由主軸帶動圓盤，將球運送至高點。</p><p><img src="https://i.imgur.com/d9yVwXx.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;三段式六連桿鋼球循環機構&quot;&gt;&lt;a href=&quot;#三段式六連桿鋼球循環機構&quot; class=&quot;headerlink&quot; title=&quot;三段式六連桿鋼球循環機構&quot;&gt;&lt;/a&gt;三段式六連桿鋼球循環機構&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;此抬球機構參考至ag6，由 405
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Dummy Functions</title>
